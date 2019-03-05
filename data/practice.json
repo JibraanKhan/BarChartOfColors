@@ -1,0 +1,30 @@
+[
+  {
+    "color":"blue",
+    "num":8
+  },
+  {
+    "color":"green",
+    "num":8
+  },
+  {
+    "color":"red",
+    "num":6
+  },
+  {
+    "color":"black",
+    "num":2
+  },
+  {
+    "color":"purple",
+    "num":3
+  },
+  {
+    "color":"gold",
+    "num":4
+  },
+  {
+    "color":"teal",
+    "num":1
+  }
+]
