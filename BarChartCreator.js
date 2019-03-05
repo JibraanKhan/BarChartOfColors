@@ -1,7 +1,7 @@
 var csvColors = d3.csv('data/practice.csv');
 var jsonColors = d3.json('data/practice.json')
 var type_colors = [csvColors, jsonColors]
-var width = 400;
+var width = 600;
 var height = 600;
 
 var types = ['.csv', '.json']
@@ -9,7 +9,7 @@ var svgs = [];
 
 types.forEach(function(d){
   var svg = d3.select(d)
-              .attr('width', width + 400)
+              .attr('width', width + 200)
               .attr('height', height)
               .style('display', 'block');
 
