@@ -103,19 +103,3 @@ type_colors.forEach(function(d, i){
     console.log(error);
   })
 })
-
-/*
-csvColors.then(function(data){
-  parser(data, svgs[0])
-},
-function(error){
-  console.log(error);
-})
-
-jsonColors.then(function(data){
-  parser(data, svgs[1])
-},
-function(error){
-  console.log(error);
-})
-*/
